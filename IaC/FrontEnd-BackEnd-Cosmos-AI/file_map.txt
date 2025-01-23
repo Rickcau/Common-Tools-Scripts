@@ -1,0 +1,36 @@
+project_root/
+├── Infra/
+│   ├── app/
+│   │   ├── ai.bicep
+│   │   ├── database.bicep
+│   │   ├── identity.bicep
+│   │   ├── security.bicep
+│   │   └── web.bicep
+│   ├── core/
+│   │   ├── database/
+│   │   │    ├── cosmos-db/
+│   │   │    │   ├── nosql/
+│   │   │    │   │   ├── role/
+│   │   │    │   │   │   ├── assignment.bicep
+│   │   │    │   │   │   └── definition.bicep
+│   │   │    │   │   ├── account.bicep
+│   │   │    │   │   ├── container.bicep
+│   │   │    │   │   └── database.bicep
+│   │   │    │   └── account.bicep
+│   │   ├── host/
+│   │   │    ├── app-service/
+│   │   │    │   ├── config.bicep
+│   │   │    │   ├── plan.bicep
+│   │   │    │   └── site.bicep
+│   │   ├── security/
+│   │   │    ├── identity/
+│   │   │    │   └── user-assigned.bicep
+│   │   │    ├── role/
+│   │   │    │   ├── assignment.bicep
+│   │   │    │   └── definition.bicep
+│   ├── abbreviations.json
+│   ├── main.bicep
+│   ├── main.parameters.json
+│   └── main.test.bicep
+├── azure.yaml
+└── file_map.txt
