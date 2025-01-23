@@ -43,7 +43,11 @@ azd up
 
 If your deployment is successful you see results that look like this...
 
+<<<<<<< HEAD
 ![successful-az-up](././Images/successful-azd-up.jpg)
+=======
+![succsssful-azd-up](.\.\Images\successful-azd-up.jpg)
+>>>>>>> 608f61cfdfc61424a80c530ae74eb42ee03f922f
 
 You will be prompted for:
 - Environment name
